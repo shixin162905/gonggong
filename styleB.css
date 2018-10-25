@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+}
+.top{
+	background-image: url(../img/g_banner_background.png);
+	background-position: center center;
+	width: 100%;
+	height: 500px;
+
+	}
+.pig{
+	float: left;
+	}
+.logo{
+	width: 150px;
+	position: relative;
+    left: 3%;
+	top: 30px;
+
+}
+.logo p{
+	position: relative;
+	left: 25px;
+	top: 16px;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+}
+.nav{
+    display: none;
+}
+
+.main{
+	min-width: 400px;
+	width: 90%;
+	height: 400px;
+	position: relative;
+}
+.left{
+	display: inline-block;
+	bottom: 0;
+	width: 42%;
+    height: 100%;
+    margin:0;
+    padding: 20% 0 0 5%;
+}
+.banner{
+	
+	height: 80px;
+}
+.banner1{
+	padding-right: 20px;
+	width: 100px;
+	color: white;
+	font-size: 30px;
+}
+.banner2{
+    position: relative;
+    display: none;
+	width: 200px;
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+	opacity: 0.8;
+}
+.banner3{
+    display: inline-block;
+	height: 25px;
+	width: 70px;
+	line-height: 22px;
+	background-color: #B22222;
+	border: #B22222 1px solid;
+	border-radius: 8px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+.banner5{
+    margin-top: 20px;
+	width: 300px;
+	color: white;
+	font-size: 28px;
+}
+hr{
+    display: none;
+	width: 200px;
+	color: white;
+}
+.banner4{
+	display: none;
+	font-size: 33px;
+    color: #fff;
+    line-height: 60px;
+
+}
+.download{
+	float: left;
+	margin-top: 40px;
+	width: 85%;
+	height: 80px;
+	background-color: #B22222;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.download:hover {
+    background: #ff5454;
+}
+.download p{
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 80px;
+}
+.download_QR{
+	display: none;
+	margin-left:5%;
+	padding-top: 20px;
+	float: left;
+	width: 100px;
+	height: 120px;
+}
+.download_QR img{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+}
+.download_size{
+	float: left;
+	margin-right: 5px;
+	margin-top: 30px;
+	font-size: 12px;
+	color: white;
+}
+.download_data{
+	float: right;
+	margin-top: 30px;
+	margin-right: 0;
+	width: 120px;
+	color: white;
+	font-size: 12px;
+}
+.right{
+    overflow: hidden;
+	width:35%;
+
+	float: right;
+	position: relative;
+	right: 10%;
+    top: -80px;
+/*	z-index: -99;*/
+}
+
+.right img{
+	width: 100%;
+}
+
+.bottom{
+	height: 300px;
+	min-width: 500px;
+    margin: 0;
+}
+.pic1{
+
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20%;
+	width: 150px;
+	background-image: url(../img/g_feature.png);
+}
+.bottom p{
+	text-align: center;	
+	font-size: 13px;
+
+}
+.p1{
+	display: none;
+}
+.pic1 img{
+	width: 100%;
+	height:150px;
+}
+.pic1{
+    margin: 10px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	width: 20%;
+	height: auto;
+	float: left;
+}
+
+.footer{
+	text-align: center;
+	line-height: 45px;
+	height: 50px;
+	width: 100%;
+	background-color: gainsboro;
+	font-size: 10px;
+}
+.fa-android{
+	padding-right: 10px;
+	
+}
+.fa-apple{
+	padding-right: 10px;
+}
+.fa-windows{
+	padding-right: 10px;
+}
+.fa-download{
+	padding-right: 10px;
+}
